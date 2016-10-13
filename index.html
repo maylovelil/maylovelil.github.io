@@ -300,14 +300,12 @@
 
       
         
-          
-            <a id="more"></a>
-<h2 id="&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;"><a href="#&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;" class="headerlink" title="&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;"></a>&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;</h2><p><img src="http://maylovelil.github.io/images/20161013/1.png" alt="image"></p>
-<h2 id="&#x4E8C;&#x3001;&#x914D;&#x7F6E;POM-XML&#x6587;&#x4EF6;"><a href="#&#x4E8C;&#x3001;&#x914D;&#x7F6E;POM-XML&#x6587;&#x4EF6;" class="headerlink" title="&#x4E8C;&#x3001;&#x914D;&#x7F6E;POM.XML&#x6587;&#x4EF6;"></a>&#x4E8C;&#x3001;&#x914D;&#x7F6E;POM.XML&#x6587;&#x4EF6;</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</div><div class="line">  xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd&quot;&gt;</div><div class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</div><div class="line">  &lt;groupId&gt;com&lt;/groupId&gt;</div><div class="line">  &lt;artifactId&gt;com&lt;/artifactId&gt;</div><div class="line">  &lt;packaging&gt;war&lt;/packaging&gt;</div><div class="line">  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;</div><div class="line">  &lt;name&gt;com Maven Webapp&lt;/name&gt;</div><div class="line">  &lt;url&gt;http://maven.apache.org&lt;/url&gt;</div><div class="line"></div><div class="line">    &lt;parent&gt;</div><div class="line">        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</div><div class="line">        &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;</div><div class="line">        &lt;version&gt;1.3.0.RELEASE&lt;/version&gt;</div><div class="line">        &lt;relativePath/&gt;</div><div class="line">    &lt;/parent&gt;</div><div class="line">    &lt;properties&gt;</div><div class="line">        &lt;start-class&gt;com.1.Application&lt;/start-class&gt; &lt;!-- &#x6307;&#x5B9A;&#x542F;&#x52A8;&#x7C7B;&#xFF08;main&#x65B9;&#x6CD5;&#x7684;&#x4F4D;&#x7F6E;&#xFF09; --&gt;</div><div class="line">        &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;</div><div class="line">        &lt;java.version&gt;1.7&lt;/java.version&gt;</div><div class="line">    &lt;/properties&gt;</div><div class="line">  &lt;dependencies&gt;</div><div class="line">    &lt;dependency&gt;</div><div class="line">      &lt;groupId&gt;junit&lt;/groupId&gt;</div><div class="line">      &lt;artifactId&gt;junit&lt;/artifactId&gt;</div><div class="line">      &lt;version&gt;3.8.1&lt;/version&gt;</div><div class="line">      &lt;scope&gt;test&lt;/scope&gt;</div><div class="line">    &lt;/dependency&gt;</div><div class="line">      &lt;dependency&gt;</div><div class="line">          &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</div><div class="line">          &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;</div><div class="line">      &lt;/dependency&gt;</div><div class="line">  &lt;/dependencies&gt;</div><div class="line">  &lt;build&gt;</div><div class="line">    &lt;finalName&gt;com&lt;/finalName&gt;</div><div class="line">    &lt;sourceDirectory&gt;src/main/java&lt;/sourceDirectory&gt;</div><div class="line">      &lt;plugins&gt;</div><div class="line">          &lt;plugin&gt;</div><div class="line">              &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</div><div class="line">              &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;</div><div class="line">          &lt;/plugin&gt;</div><div class="line">      &lt;/plugins&gt;</div><div class="line">  &lt;/build&gt;</div><div class="line">&lt;/project&gt;</div></pre></td></tr></table></figure>
-<h2 id="&#x4E09;&#x3001;&#x65B0;&#x5EFA;Appliction-java&#x6587;&#x4EF6;&#x5E76;&#x5199;&#x4E2A;&#x5C0F;&#x4F8B;&#x5B50;&#xFF08;SpringBoot&#x542F;&#x52A8;&#x7C7B;&#xFF09;"><a href="#&#x4E09;&#x3001;&#x65B0;&#x5EFA;Appliction-java&#x6587;&#x4EF6;&#x5E76;&#x5199;&#x4E2A;&#x5C0F;&#x4F8B;&#x5B50;&#xFF08;SpringBoot&#x542F;&#x52A8;&#x7C7B;&#xFF09;" class="headerlink" title="&#x4E09;&#x3001;&#x65B0;&#x5EFA;Appliction.java&#x6587;&#x4EF6;&#x5E76;&#x5199;&#x4E2A;&#x5C0F;&#x4F8B;&#x5B50;&#xFF08;SpringBoot&#x542F;&#x52A8;&#x7C7B;&#xFF09;"></a>&#x4E09;&#x3001;&#x65B0;&#x5EFA;Appliction.java&#x6587;&#x4EF6;&#x5E76;&#x5199;&#x4E2A;&#x5C0F;&#x4F8B;&#x5B50;&#xFF08;SpringBoot&#x542F;&#x52A8;&#x7C7B;&#xFF09;</h2><p><strong>&#x6CE8;&#x610F;</strong>&#xFF1A;==&#x542F;&#x52A8;&#x7C7B;&#x4E00;&#x5B9A;&#x8981;&#x81EA;&#x5DF1;&#x6240;&#x5EFA;&#x7684;&#x5305;&#x4E0B;&#x521B;&#x5EFA;&#xFF0C;&#x4E0D;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x653E;src/main/java&#x5305;&#x4E0B;==<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">package com.my;</div><div class="line"></div><div class="line">import org.springframework.boot.SpringApplication;</div><div class="line">import org.springframework.boot.autoconfigure.SpringBootApplication;</div><div class="line">import org.springframework.stereotype.Controller;</div><div class="line">import org.springframework.web.bind.annotation.RequestMapping;</div><div class="line"></div><div class="line">/**</div><div class="line"> * Created by XiaoMaYong on 2016/10/13.</div><div class="line"> */</div><div class="line">@SpringBootApplication</div><div class="line">@Controller</div><div class="line">@RequestMapping(&quot;test&quot;)</div><div class="line">public class Application {</div><div class="line">        public static void main(String[] args) {</div><div class="line">            SpringApplication.run(Application.class, args);</div><div class="line">        }</div><div class="line">    @RequestMapping(&quot;a&quot;)</div><div class="line">    public void aa(){</div><div class="line">        System.out.println(&quot;-----------------------&quot;);</div><div class="line">        System.out.println(&quot;&#x4F60;&#x597D;&#xFF0C;&#x6B22;&#x8FCE;&#x6765;&#x5230;Spring-boot&quot;);</div><div class="line">        System.out.println(&quot;-----------------------&quot;);</div><div class="line">    }</div><div class="line">}</div></pre></td></tr></table></figure></p>
-<p>&#x8FD0;&#x884C;Application&#x4E2D;&#x7684;main&#x65B9;&#x6CD5;&#x3002;&#x542F;&#x52A8;&#x670D;&#x52A1;&#x3002;&#x6B64;&#x65F6;&#x670D;&#x52A1;&#x8BBF;&#x95EE;&#xFF1A;localhost:8080/test/a<br>&#x63A7;&#x5236;&#x53F0;&#x6253;&#x5370;&#xFF1A;<br><img src="http://maylovelil.github.io/images/20161013/2.png" alt="image"></p>
-
-          
+          <h2 id="&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;"><a href="#&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;" class="headerlink" title="&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;"></a>&#x4E00;&#x3001;&#x521B;&#x5EFA;Maven&#x9879;&#x76EE;</h2>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/13/2016101302/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -406,104 +404,12 @@
 
       
         
-          
-            <a id="more"></a>
-<h2 id="&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot"><a href="#&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot" class="headerlink" title="&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot?"></a>&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot?</h2><p>Spring Boot&#x662F;Spring&#x793E;&#x533A;&#x53D1;&#x5E03;&#x7684;&#x4E00;&#x4E2A;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#xFF0C;&#x65E8;&#x5728;&#x5E2E;&#x52A9;&#x5F00;&#x53D1;&#x8005;&#x5FEB;&#x901F;&#x5E76;&#x4E14;&#x66F4;&#x7B80;&#x5355;&#x7684;&#x6784;&#x5EFA;&#x9879;&#x76EE;&#x3002;&#x5927;&#x591A;&#x6570;SpringBoot&#x9879;&#x76EE;&#x53EA;&#x9700;&#x8981;&#x5F88;&#x5C11;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;<br><!-- more --></p>
-<h2 id="&#x4E8C;&#x3001;SpringBoot&#x7279;&#x6027;"><a href="#&#x4E8C;&#x3001;SpringBoot&#x7279;&#x6027;" class="headerlink" title="&#x4E8C;&#x3001;SpringBoot&#x7279;&#x6027;"></a>&#x4E8C;&#x3001;SpringBoot&#x7279;&#x6027;</h2><p>&#x521B;&#x5EFA;&#x72EC;&#x7ACB;&#x7684;Spring&#x9879;&#x76EE;<br>&#x5185;&#x7F6E;Tomcat&#x548C;Jetty&#x5BB9;&#x5668;<br>&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;starter POMs&#x6765;&#x7B80;&#x5316;Maven&#x914D;&#x7F6E;<br>&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x7CFB;&#x5217;&#x5927;&#x578B;&#x9879;&#x76EE;&#x4E2D;&#x5E38;&#x89C1;&#x7684;&#x975E;&#x529F;&#x80FD;&#x6027;&#x7279;&#x6027;&#xFF0C;&#x5982;&#x5B89;&#x5168;&#x3001;&#x6307;&#x6807;&#xFF0C;&#x5065;&#x5EB7;&#x68C0;&#x6D4B;&#x3001;&#x5916;&#x90E8;&#x914D;&#x7F6E;&#x7B49;<br>&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x4EE3;&#x7801;&#x751F;&#x6210;&#x548C;xml&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p>
-<h2 id="&#x4E09;&#x3001;SpringBoot&#x8FD0;&#x884C;&#x73AF;&#x5883;"><a href="#&#x4E09;&#x3001;SpringBoot&#x8FD0;&#x884C;&#x73AF;&#x5883;" class="headerlink" title="&#x4E09;&#x3001;SpringBoot&#x8FD0;&#x884C;&#x73AF;&#x5883;"></a>&#x4E09;&#x3001;SpringBoot&#x8FD0;&#x884C;&#x73AF;&#x5883;</h2><p>pring Boot&#x6700;&#x65B0;&#x7248;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x5728;Java6+&#x7684;&#x73AF;&#x5883;&#x4E0B;&#xFF0C;&#x4F46;&#x662F;Spring&#x5B98;&#x65B9;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;Java8&#x3002;</p>
-<h2 id="&#x56DB;&#x3001;SpringBoot&#x652F;&#x6301;&#x54EA;&#x4E9B;&#x5E94;&#x7528;"><a href="#&#x56DB;&#x3001;SpringBoot&#x652F;&#x6301;&#x54EA;&#x4E9B;&#x5E94;&#x7528;" class="headerlink" title="&#x56DB;&#x3001;SpringBoot&#x652F;&#x6301;&#x54EA;&#x4E9B;&#x5E94;&#x7528;"></a>&#x56DB;&#x3001;SpringBoot&#x652F;&#x6301;&#x54EA;&#x4E9B;&#x5E94;&#x7528;</h2><p>&#x4F7F;&#x7528;SpringBoot&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x666E;&#x901A;Java&#x9879;&#x76EE;&#x548C;Web&#x9879;&#x76EE;&#xFF0C;&#x4EE5;&#x53CA;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x3002;</p>
-<table>
-<thead>
-<tr>
-<th>&#x540D;&#x79F0;</th>
-<th>&#x8BF4;&#x660E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>spring-boot-starter</td>
-<td>&#x6838;&#x5FC3; POM&#xFF0C;&#x5305;&#x542B;&#x81EA;&#x52A8;&#x914D;&#x7F6E;&#x652F;&#x6301;&#x3001;&#x65E5;&#x5FD7;&#x5E93;&#x548C;&#x5BF9; YAML &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x652F;&#x6301;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-amqp</td>
-<td>&#x901A;&#x8FC7; spring-rabbit &#x652F;&#x6301; AMQP&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-aop</td>
-<td>&#x5305;&#x542B; spring-aop &#x548C; AspectJ &#x6765;&#x652F;&#x6301;&#x9762;&#x5411;&#x5207;&#x9762;&#x7F16;&#x7A0B;&#xFF08;AOP&#xFF09;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-batch</td>
-<td>&#x652F;&#x6301; Spring Batch&#xFF0C;&#x5305;&#x542B; HSQLDB&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-data-jpa</td>
-<td>&#x5305;&#x542B; spring-data-jpa&#x3001;spring-orm &#x548C; Hibernate &#x6765;&#x652F;&#x6301; JPA&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-data-mongodb</td>
-<td>&#x5305;&#x542B; spring-data-mongodb &#x6765;&#x652F;&#x6301; MongoDB&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-data-rest</td>
-<td>&#x901A;&#x8FC7; spring-data-rest-webmvc  &#x652F;&#x6301;&#x4EE5; REST &#x65B9;&#x5F0F;&#x66B4;&#x9732; Spring Data &#x4ED3;&#x5E93;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-jdbc</td>
-<td>&#x652F;&#x6301;&#x4F7F;&#x7528; JDBC &#x8BBF;&#x95EE;&#x6570;&#x636E;&#x5E93;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-security</td>
-<td>&#x5305;&#x542B; spring-security&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-test</td>
-<td>&#x5305;&#x542B;&#x5E38;&#x7528;&#x7684;&#x6D4B;&#x8BD5;&#x6240;&#x9700;&#x7684;&#x4F9D;&#x8D56;&#xFF0C;&#x5982; JUnit&#x3001;Hamcrest&#x3001;Mockito &#x548C; spring-test &#x7B49;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-velocity</td>
-<td>&#x652F;&#x6301;&#x4F7F;&#x7528; Velocity &#x4F5C;&#x4E3A;&#x6A21;&#x677F;&#x5F15;&#x64CE;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-web</td>
-<td>&#x652F;&#x6301; Web &#x5E94;&#x7528;&#x5F00;&#x53D1;&#xFF0C;&#x5305;&#x542B; Tomcat &#x548C; spring-mvc&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-websocket</td>
-<td>&#x652F;&#x6301;&#x4F7F;&#x7528; Tomcat &#x5F00;&#x53D1; WebSocket &#x5E94;&#x7528;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-ws</td>
-<td>&#x652F;&#x6301; Spring Web Services&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-actuator</td>
-<td>&#x6DFB;&#x52A0;&#x9002;&#x7528;&#x4E8E;&#x751F;&#x4EA7;&#x73AF;&#x5883;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x5982;&#x6027;&#x80FD;&#x6307;&#x6807;&#x548C;&#x76D1;&#x6D4B;&#x7B49;&#x529F;&#x80FD;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-remote-shell</td>
-<td>&#x6DFB;&#x52A0;&#x8FDC;&#x7A0B; SSH &#x652F;&#x6301;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-jetty</td>
-<td>&#x4F7F;&#x7528; Jetty &#x800C;&#x4E0D;&#x662F;&#x9ED8;&#x8BA4;&#x7684; Tomcat &#x4F5C;&#x4E3A;&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-log4j</td>
-<td>&#x6DFB;&#x52A0; Log4j &#x7684;&#x652F;&#x6301;&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-logging</td>
-<td>&#x4F7F;&#x7528; Spring Boot &#x9ED8;&#x8BA4;&#x7684;&#x65E5;&#x5FD7;&#x6846;&#x67B6; Logback&#x3002;</td>
-</tr>
-<tr>
-<td>spring-boot-starter-tomcat</td>
-<td>&#x4F7F;&#x7528; Spring Boot &#x9ED8;&#x8BA4;&#x7684; Tomcat &#x4F5C;&#x4E3A;&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;&#x3002; </td>
-</tr>
-</tbody>
-</table>
-
-          
+          <h2 id="&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot"><a href="#&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot" class="headerlink" title="&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot?"></a>&#x4E00;&#x3001;&#x4EC0;&#x4E48;&#x662F;SpringBoot?</h2>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/13/2016101301/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
